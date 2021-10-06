@@ -54,6 +54,8 @@ public class ExcelSheet {
 	  int size = options.size();
 	  String text2 = sk.getText();
 	  System.out.println(text2);
+	  System.out.println(text2);
+	  System.out.println(text2);
 	  
 	  
 	 // System.out.println(size);
