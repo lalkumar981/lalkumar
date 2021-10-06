@@ -28,7 +28,16 @@ import com.sun.org.apache.bcel.internal.generic.Select;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ExcelSheet {
+	public void tc() {
+		System.out.println("newone");
+		
+
+	}
+	
+	
 	public static void main(String[] args) throws IOException {
+		
+	
 		
 		
 		File file = new File("C:\\Users\\Lenovo\\Excel\\driver\\Sheet1.xlsx");
@@ -54,8 +63,8 @@ public class ExcelSheet {
 	  int size = options.size();
 	  String text2 = sk.getText();
 	  System.out.println(text2);
-	  System.out.println(text2);
-	  System.out.println(text2);
+	 
+	 
 	  
 	  
 	 // System.out.println(size);
